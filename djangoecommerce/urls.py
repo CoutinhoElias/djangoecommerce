@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from core import views
+from djangoecommerce.core import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
